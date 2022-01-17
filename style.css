@@ -9,6 +9,7 @@
 
 header {
     grid-area: header;
+    height: 200px;
     background-color: blue;
     text-align: center;
 }
@@ -72,10 +73,12 @@ main {
     }
 
     header {
-        height: 200px;
+        /* height: 200px; */
         /* align-content: center;
         justify-items: center;
         text-align: center; */
+        height: 200px;
+        grid-area: header;
         align-self: center;
         align-items: center;
         background-color: cyan;
